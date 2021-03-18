@@ -81,7 +81,6 @@ public class GuessTheNumber {
 
         while(G.getTimes()!=0){
             int flag=0;
-            //G.setLevels(1);
             Game g = new Game();
             System.out.println("\n"+G.getLevel()+" Level!");
             g.setGuesses();
