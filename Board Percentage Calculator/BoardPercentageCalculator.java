@@ -1,3 +1,5 @@
+package ClassFiles;
+
 import java.util.Scanner;
 
 public class BoardPercentageCalculator {
