@@ -201,7 +201,7 @@ class Cylinder extends Circle implements Shapes3D{
     }
 
     public float surfaceArea() {
-        return (float)Math.PI*radius*(2*height+radius);
+        return (float)Math.PI*radius*2*(height+radius);
     }
     public float volume(){
         return (float)Math.PI*radius*radius*height;
